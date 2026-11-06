@@ -1,0 +1,46 @@
+.section {
+  width: 100%;
+  padding: 40px 0;
+}
+
+/* Cabeçalho da seção */
+
+.section-header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+/* Título */
+
+.section-title {
+  color: var(--dark-gray-2);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+/* Alinhamento centralizado */
+
+.section-center .section-header {
+  justify-content: center;
+}
+
+/* Link */
+
+.section-link {
+  color: var(--primary);
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.section-link:hover {
+  text-decoration: underline;
+}
+
+/* Conteúdo */
+
+.section-content {
+  width: 100%;
+}

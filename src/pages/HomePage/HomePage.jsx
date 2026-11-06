@@ -1,8 +1,13 @@
+import Section from '../../components/Section/Section';
+
 function HomePage() {
   return (
     <main>
-      <h1>Página Inicial</h1>
-      <p>Bem-vindo à Digital Store!</p>
+      <Section title="Galeria de ofertas">
+        <div>
+          <p>Conteúdo da seção funcionando!</p>
+        </div>
+      </Section>
     </main>
   );
 }
